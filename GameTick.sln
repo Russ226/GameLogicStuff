@@ -5,16 +5,40 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTick", "GameTick.csproj", "{5941CB28-DF9B-4131-9714-C0F4678E26DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLogic.Province", "GameLogic.Province\GameLogic.Province.csproj", "{66B2C59E-A6B2-40E1-8C7F-F7AF3C5E8D51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLogic.Shared", "GameLogic.Shared\GameLogic.Shared.csproj", "{96822581-5B79-4922-90A6-2C4DDDBD8227}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5941CB28-DF9B-4131-9714-C0F4678E26DC}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{5941CB28-DF9B-4131-9714-C0F4678E26DC}.Debug|x86.ActiveCfg = Debug|x86
 		{5941CB28-DF9B-4131-9714-C0F4678E26DC}.Debug|x86.Build.0 = Debug|x86
+		{5941CB28-DF9B-4131-9714-C0F4678E26DC}.Release|Any CPU.ActiveCfg = Release|x86
 		{5941CB28-DF9B-4131-9714-C0F4678E26DC}.Release|x86.ActiveCfg = Release|x86
 		{5941CB28-DF9B-4131-9714-C0F4678E26DC}.Release|x86.Build.0 = Release|x86
+		{66B2C59E-A6B2-40E1-8C7F-F7AF3C5E8D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B2C59E-A6B2-40E1-8C7F-F7AF3C5E8D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B2C59E-A6B2-40E1-8C7F-F7AF3C5E8D51}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{66B2C59E-A6B2-40E1-8C7F-F7AF3C5E8D51}.Debug|x86.Build.0 = Debug|Any CPU
+		{66B2C59E-A6B2-40E1-8C7F-F7AF3C5E8D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B2C59E-A6B2-40E1-8C7F-F7AF3C5E8D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B2C59E-A6B2-40E1-8C7F-F7AF3C5E8D51}.Release|x86.ActiveCfg = Release|Any CPU
+		{66B2C59E-A6B2-40E1-8C7F-F7AF3C5E8D51}.Release|x86.Build.0 = Release|Any CPU
+		{96822581-5B79-4922-90A6-2C4DDDBD8227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96822581-5B79-4922-90A6-2C4DDDBD8227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96822581-5B79-4922-90A6-2C4DDDBD8227}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{96822581-5B79-4922-90A6-2C4DDDBD8227}.Debug|x86.Build.0 = Debug|Any CPU
+		{96822581-5B79-4922-90A6-2C4DDDBD8227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96822581-5B79-4922-90A6-2C4DDDBD8227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96822581-5B79-4922-90A6-2C4DDDBD8227}.Release|x86.ActiveCfg = Release|Any CPU
+		{96822581-5B79-4922-90A6-2C4DDDBD8227}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

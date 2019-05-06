@@ -32,6 +32,9 @@
   <PropertyGroup>
     <RootNamespace>GameTick</RootNamespace>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>GameTick.Main.Runner</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />

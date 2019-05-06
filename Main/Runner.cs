@@ -10,6 +10,8 @@ namespace GameTick.Main
         static void Main(string[] args)
         {
             Console.WriteLine("check one two");
+            Console.ReadLine();
+
         }
     }
 }
