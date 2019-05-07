@@ -15,6 +15,10 @@ namespace GameLogic.Shared.Models
         public int TaxIncome { get; set; }
         public Resource Resource { get; set; }
         public int PopulationSize { get; set; }
+
+        public float CalculateIncomePerTick() {
+            return PopulationSize / Resource.ResourceValue;
+        }
        
     }
 
