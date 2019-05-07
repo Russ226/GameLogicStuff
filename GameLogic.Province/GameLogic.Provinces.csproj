@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{66B2C59E-A6B2-40E1-8C7F-F7AF3C5E8D51}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GameLogic.Province</RootNamespace>
-    <AssemblyName>GameLogic.Province</AssemblyName>
+    <RootNamespace>GameLogic.Provinces</RootNamespace>
+    <AssemblyName>GameLogic.Provinces</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IProvinceOperations.cs" />
     <Compile Include="Models\Province.cs" />
+    <Compile Include="Models\Resource.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -54,7 +56,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Interfaces\" />
     <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTick", "GameTick.csproj", "{5941CB28-DF9B-4131-9714-C0F4678E26DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLogic.Province", "GameLogic.Province\GameLogic.Province.csproj", "{66B2C59E-A6B2-40E1-8C7F-F7AF3C5E8D51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLogic.Provinces", "GameLogic.Province\GameLogic.Provinces.csproj", "{66B2C59E-A6B2-40E1-8C7F-F7AF3C5E8D51}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLogic.Shared", "GameLogic.Shared\GameLogic.Shared.csproj", "{96822581-5B79-4922-90A6-2C4DDDBD8227}"
 EndProject

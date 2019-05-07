@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameLogic.Shared.Models
+namespace GameLogic.Provinces.Models
 {
     public enum ProductionResource { Grain, Iron, Diamond, Gold, Wine, Salt}
 
@@ -24,6 +24,10 @@ namespace GameLogic.Shared.Models
 
     public class Resource {
         public ProductionResource ProductionResource { get; set; }
-        public int ResourceValue {get; set;}
+        public float ResourceValue {get; set;}
+
+        public void IncreaseResourceValue(int percentIncrease) {
+            ResourceValue += (ResourceValue * ((float)percentIncrease / 100)); 
+        }
     }
 }
